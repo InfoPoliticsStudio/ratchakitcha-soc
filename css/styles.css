@@ -51,11 +51,11 @@ a:not([href]):not([tabindex]):focus,a:not([href]):not([tabindex]):hover{color:in
         max-width: 1170px;
     }
 }
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
     .container {
         max-width: 970px;
     }
-}
+} */
 @media (min-width: 1200px) {
     .container {
         max-width: 1140px;
