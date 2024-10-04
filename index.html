@@ -20,9 +20,70 @@
       </div>
     </div>
 
-    <div id="data-soc">
-      <p>ข้อมูลที่ค้นหา: <span id="result"></span></p>
-    </div>
+    <section class="p-t-10 p-b-0" id="data-soc">
+      <div class="col-lg-12 bg-light">
+        <div id="list-tab" class="container">
+          <div class="announce100 m-b-0 p-t-40 p-b-20">
+            <div class="row">
+              <div class="col-md-9 no-padding">
+                <h3 class="font-red top10" style="font-size: 1.78571em;">
+                  <i class="fas fa-book m-r-10"></i> ราชกิจจานุเบกษาที่ประกาศล่าสุด ๑๐๐ รายการ
+                </h3>
+              </div>
+              <div class="col-md-3 no-padding">
+                <select aria-label="หมวดหมู่" class="form-control search-slt bor-l-3" id="tab-type">
+                  <option value="all-tab">ทั้งหมด</option>
+                  <option value="law-tab">กฎหมาย/คำวินิจฉัย</option>
+                  <option value="honor-tab">ทะเบียนฐานันดร/เครื่องราชอิสริยาภรณ์/ยศ</option>
+                  <option value="news-tab">ข่าวในพระราชสำนัก/หมายกำหนดการ</option>
+                  <option value="dbd-tab">ทะเบียนการค้า/นิติบุคคล/ประกาศ/คำสั่งที่เกี่ยวข้อง</option>
+                  <option value="bankrupt-tab">พิทักษ์ทรัพย์/ล้มละลาย/คนไร้ความสามารถ ฯลฯ</option>
+                </select>
+              </div>
+            </div>
+    
+            <div class="seperator"></div>
+    
+            <div class="post-thumbnail-list p-b-20 list-tab all-tab active-tab">
+              <!-- ตัวอย่างข้อมูลประกาศ -->
+              <div class="post-thumbnail-entry blogBox">
+                <div class="post-thumbnail-content">
+                  <a target="_blank" href="https://ratchakitcha.soc.go.th/documents/45837.pdf" class="m-b-10">
+                    พระราชกฤษฎีกาปิดประชุมรัฐสภา พ.ศ. ๒๕๖๗
+                  </a>
+                  <span class="post-date"><i class="far fa-clock"></i> ๓ ต.ค. ๒๕๖๗</span>
+                  <span class="post-category"><i class="fas fa-file-alt"></i> เล่ม ๑๔๑ ตอนที่ ๖๒ ก หน้า ๑</span>
+                  <span class="post-category">
+                    <a target="_blank" href="https://ratchakitcha.soc.go.th/documents/45837.pdf">
+                      <i class="fas fa-file-pdf"></i> ดูรายละเอียด
+                    </a>
+                  </span>
+                </div>
+              </div>
+    
+              <!-- เพิ่มข้อมูลประกาศอื่นๆ ตามที่ต้องการ -->
+    
+            </div>
+    
+            <div class="post-thumbnail-list p-b-20 list-tab law-tab" style="display: none;">
+              <!-- ข้อมูลหมวดหมู่กฎหมาย -->
+            </div>
+    
+            <div class="post-thumbnail-list p-b-20 list-tab honor-tab" style="display: none;">
+              <!-- ข้อมูลหมวดหมู่ทะเบียนฐานันดร -->
+            </div>
+    
+            <!-- หมวดหมู่อื่นๆ ตามต้องการ -->
+          </div>
+        </div>
+    
+        <div class="text-center p-b-20">
+          <button type="button" class="btn btn-creative btn-icon-holder btn-shadow btn-light-hover" id="loadMore">
+            ดูเพิ่ม <i class="fa fa-arrow-down"></i>
+          </button>
+        </div>
+      </div>
+    </section>
 
     <script src="/js/script.js"></script>
   </body>
