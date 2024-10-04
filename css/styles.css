@@ -16,6 +16,7 @@ a {
 }
 
 a:hover{color:#0056b3;text-decoration:underline}
+a:not([href]):not([tabindex]):focus,a:not([href]):not([tabindex]):hover{color:inherit;text-decoration:none}
 
 #topbar {
     border-bottom: 1px solid #eee;
