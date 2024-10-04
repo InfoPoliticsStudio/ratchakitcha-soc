@@ -72,10 +72,38 @@ section {
     padding: 80px 0;
     position: relative;
     z-index: auto;
-    width: 100%;
+    width: -webkit-fill-available;
     overflow: hidden;
     z-index: 1;
     background-color: #fff;
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 750px;
+    }
+}
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .bg-light {
