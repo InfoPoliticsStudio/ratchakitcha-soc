@@ -20,6 +20,11 @@ body, html {
   text-align: center;
 }
 
+.logo {
+  width: 150px; /* ปรับขนาดโลโก้ได้ตามต้องการ */
+  margin-bottom: 20px;
+}
+
 .header h1 {
   font-size: 3rem;
   text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.7);
