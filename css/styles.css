@@ -56,16 +56,6 @@ a:not([href]):not([tabindex]):focus,a:not([href]):not([tabindex]):hover{color:in
         max-width: 970px;
     }
 }
-@media (min-width: 768px) {
-    .container {
-        max-width: 750px;
-    }
-}
-@media (min-width: 576px) {
-    .container {
-        max-width: 540px;
-    }
-}
 @media (min-width: 1200px) {
     .container {
         max-width: 1140px;
