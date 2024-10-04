@@ -36,7 +36,7 @@ a:not([href]):not([tabindex]):focus,a:not([href]):not([tabindex]):hover{color:in
         display: block !important;
     }
     #topbar {
-        display: none;
+        display: none!important;
     }
 }
 
@@ -44,24 +44,28 @@ a:not([href]):not([tabindex]):focus,a:not([href]):not([tabindex]):hover{color:in
 .font-12 {
     font-size: 12px;
 }
-@media (max-width: 1440px) {
+
+@media(max-width: 768px) {
     .container {
-        max-width: 1340px;
+        max-width:750px
     }
 }
-@media (max-width: 1200px) {
+
+@media(max-width: 992px) {
     .container {
-        max-width: 1170px;
+        max-width:970px
     }
 }
-@media (max-width: 992px) {
+
+@media(max-width: 1200px) {
     .container {
-        max-width: 970px;
+        max-width:1170px
     }
-} 
-@media (max-width: 1200px) {
+}
+
+@media(max-width: 1440px) {
     .container {
-        max-width: 1140px;
+        max-width:1340px
     }
 }
 
