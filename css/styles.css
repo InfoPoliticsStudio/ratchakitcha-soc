@@ -4,7 +4,9 @@ body, html {
   height: 100%;
   font-family: "Bai Jamjuree", sans-serif;
 }
-
+*{
+  font-family: "Bai Jamjuree", sans-serif;
+}
 .header {
   background-image: url('https://ratchakitcha.soc.go.th/wp-content/themes/soc/images/banner06.jpg'); /* ใส่ URL รูปภาพของคุณ */
   background-size: cover;
