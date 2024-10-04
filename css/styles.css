@@ -6,7 +6,7 @@ body, html {
 }
 
 .header {
-  background-image: url('https://your-image-url.com/background.jpg'); /* ใส่ URL รูปภาพของคุณ */
+  background-image: url('https://ratchakitcha.soc.go.th/wp-content/themes/soc/images/banner06.jpg'); /* ใส่ URL รูปภาพของคุณ */
   background-size: cover;
   background-position: center;
   height: 100vh;
