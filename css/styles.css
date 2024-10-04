@@ -35,6 +35,9 @@ a:not([href]):not([tabindex]):focus,a:not([href]):not([tabindex]):hover{color:in
     .d-lg-block {
         display: block !important;
     }
+    #topbar {
+        display: none;
+    }
 }
 
 
